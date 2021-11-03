@@ -13,3 +13,12 @@
     </v-tabs>
   </v-app-bar>
 </template>
+
+<script>
+  export default {
+    name: 'AppBar',
+
+    data: () => ({
+    }),
+  }
+</script>

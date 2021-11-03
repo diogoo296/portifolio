@@ -3,13 +3,13 @@
     <AppBar/>
 
     <v-main>
-      <HelloWorld/>
+      <About/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import About from './components/About'
 import AppBar from './components/AppBar'
 
 export default {
@@ -17,7 +17,7 @@ export default {
 
   components: {
     AppBar,
-    HelloWorld,
+    About,
   },
 
   data: () => ({
